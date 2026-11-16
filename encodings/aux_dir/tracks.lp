@@ -11,7 +11,7 @@ connection(2064,    (w,n)).
 
 % Track Type 2 - Simple switch (left)
 connection(37408,   (n,s)).
-connection(37408,   (s,w)).%%#(\label{_dir:end-track-type-preview}#)
+connection(37408,   (s,w)).%%#(\label{aux_dir:end-track-type-preview}#)
 connection(17411,   (w,e)).
 connection(17411,   (e,s)).
 connection(32872,   (n,s)).

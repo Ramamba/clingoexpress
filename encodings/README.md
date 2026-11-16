@@ -2,7 +2,7 @@
 
 ## Directory preview
 - 📂 [`aux_dir`](#aux_dir)
-    - `aux.lp`
+    - `aux_file.lp`
     - `directions.lp`
     - `grid-functions.lp`
     - `tracks.lp`
@@ -29,10 +29,10 @@ These include the necessary components for constructing the topology of the envi
 - `grid-functions.lp` defines adjacency, connectedness, and valid transitions
 - `tracks.lp` defines the physical connections between different track types
 
-`aux.lp` can be invoked as an `#include` statement in an encoding as shorthand for referencing all three files:
+`aux_file.lp` can be invoked as an `#include` statement in an encoding as shorthand for referencing all three files:
 
 ```
-#include "./aux_dir/aux.lp".
+#include "./aux_dir/aux_file.lp".
 ...
 ```
 <a name="base"></a>

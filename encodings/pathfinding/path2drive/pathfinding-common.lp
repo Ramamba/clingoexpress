@@ -1,4 +1,4 @@
-#include "../../aux_dir/aux.lp".
+#include "../../aux_dir/aux_file.lp".
 
 %#const h = 3.
 

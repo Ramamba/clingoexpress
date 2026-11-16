@@ -1,4 +1,4 @@
-#include "../../aux_dir/aux.lp".
+#include "../../aux_dir/aux_file.lp".
 #include "../../wip/train-time.lp". % file missing
 #include "../../translations/subnodes.lp".
 #include "move-collisions-subnodes.lp".

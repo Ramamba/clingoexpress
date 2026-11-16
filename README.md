@@ -28,7 +28,7 @@ The easiest way to run encodings is to create a `setting` file. Check out an exa
 
 ```
 % environment physics
-#include "encodings/aux_dir/aux.lp".
+#include "encodings/aux_dir/aux_file.lp".
 
 % specific approach
 #include "encodings/translations/subnodes.lp".
@@ -38,14 +38,14 @@ The easiest way to run encodings is to create a `setting` file. Check out an exa
 ```
 
 In this file, a few components are included:
-* `aux.lp` to account for the physics of the environment
+* `aux_file.lp` to account for the physics of the environment
 * `subnodes.lp` to translate the standard environment into a graph structure
 * `pathfinding-subnodes.lp` to find paths for trains in the environment
 * `drive-map.lp` to add waits to the found paths
 * `drive-collisions.lp` to handle collision avoidance
 
 The files in this repository may be used so that more interesting questions can be addressed.
-In most cases, `aux.lp` should always be included, unless the physics of the environment are to be implemented differently.
+In most cases, `aux_file.lp` should always be included, unless the physics of the environment are to be implemented differently.
 In general, approaches need some way of finding trajectories for the agents and handling collisions.
 Translations to graphs are optional but recommended.
 Other potential modules include optimization, speed, graph compression, prioritization, etc.

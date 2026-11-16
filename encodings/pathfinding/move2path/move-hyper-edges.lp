@@ -1,4 +1,4 @@
-#include "../../aux_dir/aux.lp".
+#include "../../aux_dir/aux_file.lp".
 #include "../../translations/hypergraph.lp".
 
 time(Z,0) :- start(Z,_,_,_).

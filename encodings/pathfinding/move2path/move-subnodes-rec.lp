@@ -1,4 +1,4 @@
-#include "../../aux_dir/aux.lp".
+#include "../../aux_dir/aux_file.lp".
 #include "../../translations/subnodes.lp".
 
 { move(Z,(X,Y,D),C',1  ) : edge((X,Y,D),C') } = 1 :- start(Z,(X,Y),_,D).

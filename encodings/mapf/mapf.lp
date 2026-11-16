@@ -1,4 +1,4 @@
-#include "../aux/aux.lp".
+#include "../aux_dir/aux.lp".
 #include "../translations/hypergraph.lp".
 
          _agent(A) :- start(A,_,_,_).

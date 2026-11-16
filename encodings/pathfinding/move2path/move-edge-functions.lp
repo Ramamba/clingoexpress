@@ -1,4 +1,4 @@
-#include "../../aux/aux.lp".
+#include "../../aux_dir/aux.lp".
 #include "../../translations/edge-functions.lp".
 
 time(Z,0  ) :- start(Z,_,_,_).

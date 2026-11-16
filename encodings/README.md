@@ -1,7 +1,7 @@
 # Encodings
 
 ## Directory preview
-- 📂 [`aux`](#aux)
+- 📂 [`aux_dir`](#aux_dir)
     - `aux.lp`
     - `directions.lp`
     - `grid-functions.lp`
@@ -21,9 +21,9 @@
 
 ## Information
 
-<a name="aux"></a>
-### ⭐ `aux`
-The `aux` files should remain unchanged. 
+<a name="aux_dir"></a>
+### ⭐ `aux_dir`
+The `aux_dir` files should remain unchanged. 
 These include the necessary components for constructing the topology of the environments:
 - `directions.lp` defines the cardinal directions, as well as the relative rotations and offsets
 - `grid-functions.lp` defines adjacency, connectedness, and valid transitions
@@ -32,7 +32,7 @@ These include the necessary components for constructing the topology of the envi
 `aux.lp` can be invoked as an `#include` statement in an encoding as shorthand for referencing all three files:
 
 ```
-#include "./aux/aux.lp".
+#include "./aux_dir/aux.lp".
 ...
 ```
 <a name="base"></a>

@@ -1,4 +1,4 @@
-#include "../aux/aux.lp".
+#include "../aux_dir/aux.lp".
 #include "../translations/hypergraph.lp".
 
 % #const h=30.

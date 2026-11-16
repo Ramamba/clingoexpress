@@ -6,7 +6,7 @@ Users can write ASP encodings in clingo that solve the Flatland problem and use 
 In this repository, we provide a collection of encodings that can be used to solve various degrees of the Flatland problem. The repository adheres to the following structure:
 * 📁 `benchmarking`
 * 📁 `encodings`
-  * 📁 `aux` files that describe the physics of Flatland environments
+  * 📁 `aux_dir` files that describe the physics of Flatland environments
   * 📁 `base` files with baseline encodings derived from the R&S paper
   * 📁 `extensions` modular extensions for encodings such as collisions and optimization
   * 📁 `mapf` files with mapf encodings derived from the R&S paper
@@ -28,7 +28,7 @@ The easiest way to run encodings is to create a `setting` file. Check out an exa
 
 ```
 % environment physics
-#include "encodings/aux/aux.lp".
+#include "encodings/aux_dir/aux.lp".
 
 % specific approach
 #include "encodings/translations/subnodes.lp".

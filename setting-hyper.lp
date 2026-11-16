@@ -1,5 +1,5 @@
 % environment physics
-#include "encodings/aux/aux.lp".
+#include "encodings/aux_dir/aux.lp".
 
 % specific approach
 #include "encodings/constant.lp".

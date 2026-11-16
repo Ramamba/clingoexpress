@@ -1,4 +1,4 @@
-#include "../../aux/aux.lp".
+#include "../../aux_dir/aux.lp".
 #include "../../translations/edge-functions.lp".
 
 { move(Z,C,C',1  ) : edge(C,C'), connected(C,D,C') } = 1 :- start(Z,C,_,D).

@@ -1,4 +1,4 @@
-#include "../../aux/aux.lp".
+#include "../../aux_dir/aux.lp".
 #include "../../translations/hypergraph.lp".
 
 { move(Z,C,C',C'',0  ) : hyperedge(C,C',C''), connected(C',D,C'') } = 1 :- start(Z,C',_,D).

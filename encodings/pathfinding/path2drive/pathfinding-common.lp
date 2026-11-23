@@ -1,7 +1,5 @@
 #include "../../aux_dir/aux_file.lp".
 
-%#const h = 3.
-
 #const allow_repetitions = 1.
 
 % paths must have length greater than one.

@@ -1,4 +1,4 @@
-#include "../aux/aux.lp".
+#include "../aux_dir/aux_file.lp".
 #include "../translations/subnodes.lp".
 
 % States are "subnodes" (X,Y,D): being at cell (X,Y) about to head out via D.
